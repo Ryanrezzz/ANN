@@ -40,9 +40,5 @@ def plot_sample(X_train,y_train):
     plt.tight_layout()
     return fig
 
-(X_train, y_train), (X_test, y_test) = load_data() 
-explore_data(X_train,y_train)
-prepare_data(X_train,X_test)
-fig=plot_sample(X_train,y_train)
-plt.show()
+
 
